@@ -1,0 +1,13 @@
+const ACTIONS = {
+    JOIN: 'join',
+    CHANGE_AGENT_STATUS: 'change_agent_status',
+    NEW_CHAT_SESSION_REQUEST: 'new_chat_session_request',
+    CHAT_SESSION_ACCEPTED: 'chat_session_accepted',
+    REMOVE_ACCEPTED_CHAT_SESSION: 'remove_accepted_chat_session',
+    UPDATE_CONTACT_LIST: 'UPDATE_CONTACT_LIST',
+    NEW_MESSAGE_RECEIVED: 'NEW_MESSAGE_RECEIVED',
+    SEND_CHAT_CLOSE_REQUEST: 'SEND_CHAT_CLOSE_REQUEST',
+    CHAT_CLOSE_REQUEST_ACCEPTED: 'CHAT_CLOSE_REQUEST_ACCEPTED',
+};
+
+export {ACTIONS};

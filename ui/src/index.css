@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles */
+.scrollbar-hide {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+  
+  .scrollbar-thin {
+    scrollbar-width: thin; /* Firefox */
+  }
+  
+  .scrollbar-thumb-rounded {
+    scrollbar-color: #4A5568 transparent; /* Firefox */
+  }
+  
+  /* Customizing WebKit-based browsers (Chrome, Safari, Edge) */
+  .scrollbar-thumb-rounded::-webkit-scrollbar {
+    width: 4px; /* Set this to the desired thinness */
+  }
+  
+  .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
+    background-color: #4A5568; /* Customize the color */
+    border-radius: 9999px; /* Fully rounded scrollbar thumb */
+  }
+  
