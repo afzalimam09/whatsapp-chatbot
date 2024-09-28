@@ -15,7 +15,7 @@ import { chatSocket } from "./socket/chatSocket.js";
 
 const app = express();
 
-app.use(cors({ credentials: true, origin: process.env.FRONTEND_URL }));
+app.use(cors({ credentials: true, origin: true }));
 app.options("*", cors({ credentials: true }));
 
 app.use(express.json({ limit: "10kb" }));
